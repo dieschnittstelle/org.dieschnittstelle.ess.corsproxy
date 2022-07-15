@@ -34,6 +34,8 @@ http://localhost:8093/
 
 ## Sample Request using fetch()
 
+This shows how the CORS service can be accessed from a browser-side running application in case it needs CORS access to a resource the provider of which does not foresee this possibility:
+
         fetch("http://localhost:8090/api/cors", {
             // the PUT method is expected to be used for accessing the proxy service
             method: "PUT",
