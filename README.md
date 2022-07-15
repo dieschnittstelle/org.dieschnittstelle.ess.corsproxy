@@ -30,7 +30,7 @@ sh ./containerise.sh
 in browser, open: 
 http://localhost:8093/
 
-(the port for exposing the service can be modified in the containerise.sh, using the parameter -p, which specifies which container-internal port shall be mapped to which port of the host machine: HOST_PORT:INTERNAL_PORT. Note that INTERNAL_PORT needs to coincide with the port for which tomee is configured. If this port is changed, the EXPOSE statement in Dockerfile needs to be modified, as well) 
+(the port for exposing the service can be modified in the containerise.sh script, using the parameter -p, which specifies which container-internal port shall be mapped to which port of the host machine: HOST_PORT:INTERNAL_PORT. Note that INTERNAL_PORT needs to coincide with the port for which tomee is configured. If this port is changed, the EXPOSE statement in Dockerfile needs to be modified, as well) 
 
 ## Sample Request using fetch()
 
