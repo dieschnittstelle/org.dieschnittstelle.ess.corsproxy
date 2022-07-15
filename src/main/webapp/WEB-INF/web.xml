@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Konfigurationsdatei / deployment descriptor der Ja*a EE Webanwendung, als welche die server-seitige
+  Implementierung gebaut und in Betrieb genommen wird. Hier wird nur angegeben, dass bei Zugriff
+  auf die Wurzel URL der Anwendung die Inhalte von gui.html an den zugreifenden
+  Client ausgeliefert werden sollen. Fuer umfangreichere Angaben siehe SER:22-23
+ -->
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <welcome-file-list>
+    <welcome-file>running.txt</welcome-file>
+  </welcome-file-list>
+</web-app>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Deklaration von benannten und referenzierbaren Ressourcen der Webanwendung,
+    die die gesamte server-seitige Implementierung enthaelt. Hier wird
+    fuer die Inbetriebnahme in TomEE insbesondere unter dem Namen "MyData_DS"
+    die Konfiguration fuer die mittels JPA zuzugreifende Datenbank angegeben.
+
+    hier nicht genutzt
+ -->
+<resources>
+</resources>
