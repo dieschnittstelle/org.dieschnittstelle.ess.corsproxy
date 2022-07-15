@@ -37,7 +37,7 @@ http://localhost:8093/
         fetch("http://localhost:8090/api/cors", {
             // the PUT method is expected to be used for accessing the proxy service
             method: "PUT",
-            // this specifies the resource and method to be accessed via CORS
+            // this specifies the resource and method to be accessed via CORS - note that the json object needs to be stringified
             body: JSON.stringify({
                 method: "GET",
                 url: "https://www.visitberlin.de/en/top-museums"
